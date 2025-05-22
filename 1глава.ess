@@ -1,0 +1,37 @@
+//2.1//
+print("Привет, Study Script!")
+
+//2.2//
+print("  A  ")
+print(" A A ")
+print("AAAAA")
+print("A   A")
+print("A   A")
+
+//2.3//
+b = "B"
+i = "I"
+n = "N"
+g = "G"
+o = "O"
+
+print(b + "-" + i + "-" + n + "-" + g + "-" + o)
+
+//2.4//
+card_number = "1234 5670 9012 3456"
+card_holder = "Иван Иванов"
+expiry_date = "10/26"
+bank_name = "Study Bank"
+
+print("******************************")
+print("*      " + bank_name + "      *")
+print("*                            *")
+print("*  " + card_number + "  *")
+print("*                            *")
+print("*  " + card_holder + "  *")
+print("*  " + expiry_date + "               *")
+print("******************************")
+
+//2.5//
+for i in range(1, 11):
+    print("1 x " + str(i) + " = " + str(1 * i))
